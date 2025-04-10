@@ -3,14 +3,14 @@
 #include <LoRa.h>
 
 // Định nghĩa các chân cho LoRa RA-01H
-#define LORA_SS   5U
-#define LORA_RST  4U
-#define LORA_DIO0 15U
+#define LORA_SS   10U
+#define LORA_RST  11U
+#define LORA_DIO0 12U
 
 // Định nghĩa các chân SPI
-#define SPI_SCK   18U
-#define SPI_MOSI  23U
-#define SPI_MISO  19U
+#define SPI_SCK   3U
+#define SPI_MOSI  9U
+#define SPI_MISO  46U
 
 // Tần số LoRa (921 MHz)
 #define LORA_FREQUENCY 921E6
